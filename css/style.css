@@ -1,3 +1,11 @@
-body {
-    background-image: url(img/fondo.jpg);
+h1 {
+    text-align: center;
+}
+/*
+div[class |= "col"]{
+    border: 1px solid #ffc107;
+}
+*/
+body{
+    background-image: url('../img/fondo.jpg');
 }
