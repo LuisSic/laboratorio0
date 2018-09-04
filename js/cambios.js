@@ -15,6 +15,7 @@ $(document).ready(function () {
         $("body").removeClass("Img2");
         $("body").removeClass("Img4");
         $("body").removeClass("Img5");
+        $("body").addClass("StyleArmy");
         $(".textoSI").append("<p class='psI'>Spartans Conocidos: Gilly, Avery Junior Johnson, James Lee, Morales, Gladys Swanson, Candidato 047.</p>");
         $(".textoSII").append("<p class='psII'>Unidades: Blue Team, Red Team, Black Team, entre otros.</p>");
         $(".textoSIII").append("<p class='psIII'>Unidades: Echo, Foxtrot, India, Katana, entre otros.</p>");
@@ -45,5 +46,6 @@ $(document).ready(function () {
         $("p").remove(".psII");
         $("p").remove(".psIII");
         $("p").remove(".psIV");
+        $("body").removeClass("StyleArmy");
     });
 });
